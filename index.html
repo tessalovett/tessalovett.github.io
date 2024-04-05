@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UFT-8"
+                name="viewport"
+                content="width=device-width, initial-scale=1.0">
+            <title> Tessa Lovett Website </title>
+            <link rel="stylesheet" href="style.css" type="text/css">
+            <link rel="icon" href="catIcon.jpeg">
+        </head>
+       
+        <main>
+            <asset:list type="img"
+            <body>
+               <!-- pop up form -->
+               <div id="contactPopUp">
+                    <button id="contactBtn"> Click To Get In Contact With Me! </button>
+                    <span id="contactForm">
+                        <form action="" method="post"> 
+                            <!-- first name -->
+                            <label id="first"> First Name:  <input type="text" id="firstInput" name="first" maxLength="20" placeholder="Jane"/> </label>
+                            <!-- last name -->
+                            <label id="last"> Last Name: <input type="text" id="lastInput" name="last" maxLength="20" placeholder="Doe"/> </label>
+                            <!-- phone -->
+                            <label id="phone"> Phone Number: <textarea id="phoneInput" name="phone" maxlength="10" rows="1" cols="20"/> </textarea> </label>
+                            <!-- email -->
+                            <label id="email"> Email: <input type="email" id="emailInput" name="email" placeholder="example@gmail.com"/> </label>
+                            <!-- checkbox for favorite color -->
+                            <p id="favColor"> What was your favourite color scheme? <br>
+                                <label id="ogCheck"> <input type="checkbox" id="favColorInput" name="favColor" value="original"/> The Original </label>
+                                <label id="check1st"> <input type="checkbox" id="favColorInput" name="favColor" value="option1"/> First Option  </label>
+                                <label id="check2nd"> <input type="checkbox" id="favColorInput" name="favColor" value="option2"/> Second Option </label>
+                            </p>
+                            <!-- submit button -->
+                            <input type="submit" id="submitBtn" name="contactMe" value="Sumbit"/>
+                            <p id="message"> </p>
+                        </form>
+                    </span>
+               </div>
+                <!-- color changer butons -->
+                <div id="colorChanger">
+                    <button id="colorBtn"> Want to Change the Theme? </button>
+                    <button id="colorBtn2"> Click To Change It Again! </button>
+                    <button id="og"> Or Just Back To The Original </button>
+                </div>
+
+                <!-- Main header and sub header -->
+                <div id="header">
+                    <h1 id="h1"> Tessa Lovett </h1>
+                    <h3 id="h2"> Apsiring Game Developer </h3>
+                </div>
+
+                <!-- home page menu bar 2-->
+                <nav id="menu2">
+                    <div class="menucontaineritems">
+                        <a href="about.html"><h4> About </h4></a>
+                        <p> This is where you can get<br> 
+                            to know me. </p>
+                    </div>
+                    <div class="menucontaineritems"> 
+                        <a href="experience2.html"><h4> Experience </h4></a>
+                        <p> This is my education and some<br>
+                            examples of programs I have<br>
+                            written. </p>
+                    </div>
+                    <div class="menucontaineritems">
+                        <a href="inspiration.html"><h4> Inpsiration </h4></a>
+                        <p> These are some video games<br>
+                            with my favorite graphics and<br>
+                            what I aim to be able to do in<br> 
+                            the future. </p>
+                    </div>
+                </nav>
+               
+                <!-- home page menu bar 1 -->
+                <nav id="homeMenu1" class="menu1">
+                    <div class="menu1items">
+                        <cite><a href="about.html"> <img class="arrow" id="leftArrow" src="arrowleft.png" alt="image of an arrow"> </a></cite>
+                    </div>
+                    <div class="menu1items'>
+                        <h3 id="middle"> Home </h3>
+                    </div>
+                    <div class="menu1items">
+                        <cite><a href="experience2.html"> <img class="arrow" id="rightArrow" src="arrowright.png" alt="image of an arrow"> </a></cite>
+                    </div>
+                </nav>
+                
+            </body>
+            <script type="text/javascript" src="script.js"></script>
+        </main>
+    </html>
